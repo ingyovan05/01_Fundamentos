@@ -19,3 +19,10 @@ console.log({dia})
 }
  */
  
+const diasLetras = {0: 'Domingo', 1: 'Lunes', 2: 'Martes',3:'Miercoles',4:'Jueves',5:'Viernes',6:'Sabado'}
+
+const diasLetras2 = ['Domingo', 'Lunes', 'Martes','Miercoles','Jueves','Viernes','Sabado']
+
+console.log(diasLetras[dia])
+console.log(diasLetras2[dia])
+
