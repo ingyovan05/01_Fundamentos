@@ -15,3 +15,10 @@ const amigoArr = [
 ]
 
 console.log(amigoArr)
+
+const nota=65
+const grado = nota >= 95 ? '+A' :
+            nota >= 90 ? 'A' :
+            nota >= 85 ? 'B+' : 'F'
+
+console.log(grado)
